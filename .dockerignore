@@ -1,0 +1,13 @@
+.git
+.venv
+.uv-cache
+.pytest_cache
+.ruff_cache
+**/__pycache__
+data/runtime
+artifacts
+.env
+.coverage
+test-results
+.playwright
+docs/screenshots

@@ -1,0 +1,66 @@
+x-common: &common
+  image: ${IMAGE:-signaldesk:local}
+  build: .
+  environment: &environment
+    DATABASE_PATH: /app/data/runtime/signaldesk.db
+    MODEL_DIR: /app/artifacts/models
+    API_KEY: ${API_KEY:-}
+    MONITOR_INTERVAL_SECONDS: ${MONITOR_INTERVAL_SECONDS:-60}
+  volumes:
+    - evidence:/app/data/runtime
+    - models:/app/artifacts/models
+
+services:
+  init:
+    <<: *common
+    command: ["sh", "-c", "if [ \"$$SEED_DEMO\" = true ]; then python -m signaldesk.cli bootstrap; else python -m signaldesk.cli train; fi"]
+    environment:
+      <<: *environment
+      SEED_DEMO: ${SEED_DEMO:-true}
+    restart: "no"
+
+  api:
+    <<: *common
+    command: ["uvicorn", "signaldesk.api:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "1"]
+    depends_on:
+      init:
+        condition: service_completed_successfully
+    ports: ["127.0.0.1:8000:8000"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/readyz',timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  monitor:
+    <<: *common
+    command: ["python", "-m", "signaldesk.cli", "worker"]
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+
+  dashboard:
+    <<: *common
+    command: ["streamlit", "run", "dashboard/app.py", "--server.port", "8501"]
+    environment:
+      <<: *environment
+      API_URL: http://api:8000
+    volumes:
+      - evidence:/app/data/runtime:ro
+      - models:/app/artifacts/models:ro
+    depends_on:
+      api:
+        condition: service_healthy
+    ports: ["127.0.0.1:8501:8501"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8501/_stcore/health',timeout=3)"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+volumes:
+  evidence:
+  models:

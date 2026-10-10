@@ -1,0 +1,45 @@
+@api = http://localhost:8000
+@key =
+
+### Real-time inference
+POST {{api}}/v1/predict
+Content-Type: application/json
+X-API-Key: {{key}}
+
+{"text":"Please refund the duplicate payment on my invoice","channel":"email","language":"en"}
+
+### Batch inference
+POST {{api}}/v1/batch
+Content-Type: application/json
+X-API-Key: {{key}}
+
+{"tickets":[{"text":"The app crashes on upload"},{"text":"I cannot sign in to my account"}]}
+
+### Replace event_id with an ID returned above; external_id is an idempotency key
+POST {{api}}/v1/labels
+Content-Type: application/json
+X-API-Key: {{key}}
+
+{"event_id":"REPLACE","label":"billing","source":"human-adjudicated","external_id":"crm-label-001"}
+
+### Human feedback does not become an adjudicated label
+POST {{api}}/v1/feedback
+Content-Type: application/json
+X-API-Key: {{key}}
+
+{"event_id":"REPLACE","corrected_label":"billing","comment":"Customer confirmed duplicate charge","external_id":"review-001"}
+
+### Metrics and incidents
+GET {{api}}/v1/metrics
+X-API-Key: {{key}}
+
+### Incidents (aggregate scope by default)
+GET {{api}}/v1/incidents
+X-API-Key: {{key}}
+
+### Model rollback
+POST {{api}}/v1/deployments
+Content-Type: application/json
+X-API-Key: {{key}}
+
+{"model_version":"router-v1","reason":"Rollback after quality regression"}

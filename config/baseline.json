@@ -1,0 +1,5 @@
+{
+  "version": "operational-baseline-v1",
+  "latency_p95_ms": 120,
+  "source": "Synthetic healthy reference; replace with an approved measured baseline before production"
+}

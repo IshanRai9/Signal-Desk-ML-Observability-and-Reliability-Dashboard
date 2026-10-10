@@ -1,0 +1,17 @@
+{
+  "version": "alerts-v1",
+  "window_minutes": 60,
+  "minimum_requests": 30,
+  "minimum_labels": 30,
+  "latency_p95_ms": 500,
+  "latency_multiplier": 3,
+  "error_rate": 0.05,
+  "psi": 0.25,
+  "macro_f1_floor": 0.8,
+  "f1_drop": 0.12,
+  "low_confidence_threshold": 0.6,
+  "low_confidence_rate": 0.3,
+  "overconfidence_error_rate": 0.1,
+  "freshness_minutes": 120,
+  "estimated_cpu_usd_per_hour": 0.04
+}

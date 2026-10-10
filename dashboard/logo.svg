@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="68" viewBox="0 0 270 68">
+  <path d="M18 8 33 23 18 38 3 23Z" fill="none" stroke="#50c7bd" stroke-width="2.4"/>
+  <path d="M18 15 26 23 18 31 10 23Z" fill="#50c7bd"/>
+  <text x="43" y="31" fill="#ffffff" font-family="Arial,sans-serif" font-size="26" font-weight="700">SignalDesk</text>
+  <text x="3" y="59" fill="#9eb1cc" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.3">ML OBSERVABILITY</text>
+</svg>

@@ -1,0 +1,218 @@
+[
+  {
+    "text": "Good morning. I cannot login to my account after resetting my password. Thank you for your help.",
+    "label": "account",
+    "language": "en",
+    "channel": "web"
+  },
+  {
+    "text": "Good morning. Please reset my password and unlock my account. Thank you for your help.",
+    "label": "account",
+    "language": "en",
+    "channel": "email"
+  },
+  {
+    "text": "Good morning. The verification code for login never arrives. Thank you for your help.",
+    "label": "account",
+    "language": "en",
+    "channel": "web"
+  },
+  {
+    "text": "Good morning. I need to update the email address on my profile. Thank you for your help.",
+    "label": "account",
+    "language": "en",
+    "channel": "email"
+  },
+  {
+    "text": "Good morning. How can I delete my account and personal profile. Thank you for your help.",
+    "label": "account",
+    "language": "en",
+    "channel": "web"
+  },
+  {
+    "text": "Good morning. My two factor authentication code is invalid. Thank you for your help.",
+    "label": "account",
+    "language": "en",
+    "channel": "email"
+  },
+  {
+    "text": "Good morning. I forgot my username and cannot sign in. Thank you for your help.",
+    "label": "account",
+    "language": "en",
+    "channel": "web"
+  },
+  {
+    "text": "Good morning. My account is locked after too many login attempts. Thank you for your help.",
+    "label": "account",
+    "language": "en",
+    "channel": "email"
+  },
+  {
+    "text": "Good morning. Please change my profile name and account email. Thank you for your help.",
+    "label": "account",
+    "language": "en",
+    "channel": "web"
+  },
+  {
+    "text": "Good morning. I lost access to my authentication device. Thank you for your help.",
+    "label": "account",
+    "language": "en",
+    "channel": "email"
+  },
+  {
+    "text": "Good morning. Cannot access my account with my new password. Thank you for your help.",
+    "label": "account",
+    "language": "en",
+    "channel": "web"
+  },
+  {
+    "text": "Good morning. My account verification link has expired. Thank you for your help.",
+    "label": "account",
+    "language": "en",
+    "channel": "email"
+  },
+  {
+    "text": "Good morning. I was charged twice for my monthly subscription. Thank you for your help.",
+    "label": "billing",
+    "language": "en",
+    "channel": "web"
+  },
+  {
+    "text": "Good morning. Please refund the duplicate payment on my invoice. Thank you for your help.",
+    "label": "billing",
+    "language": "en",
+    "channel": "email"
+  },
+  {
+    "text": "Good morning. The credit card payment was declined at checkout. Thank you for your help.",
+    "label": "billing",
+    "language": "en",
+    "channel": "web"
+  },
+  {
+    "text": "Good morning. How do I cancel my paid subscription renewal. Thank you for your help.",
+    "label": "billing",
+    "language": "en",
+    "channel": "email"
+  },
+  {
+    "text": "Good morning. My invoice total is wrong and includes an extra charge. Thank you for your help.",
+    "label": "billing",
+    "language": "en",
+    "channel": "web"
+  },
+  {
+    "text": "Good morning. I need a receipt for my recent payment. Thank you for your help.",
+    "label": "billing",
+    "language": "en",
+    "channel": "email"
+  },
+  {
+    "text": "Good morning. Please update the billing address on the invoice. Thank you for your help.",
+    "label": "billing",
+    "language": "en",
+    "channel": "web"
+  },
+  {
+    "text": "Good morning. My refund has not appeared on my credit card. Thank you for your help.",
+    "label": "billing",
+    "language": "en",
+    "channel": "email"
+  },
+  {
+    "text": "Good morning. The subscription price increased without notice. Thank you for your help.",
+    "label": "billing",
+    "language": "en",
+    "channel": "web"
+  },
+  {
+    "text": "Good morning. Can I change my payment method for billing. Thank you for your help.",
+    "label": "billing",
+    "language": "en",
+    "channel": "email"
+  },
+  {
+    "text": "Good morning. I paid the invoice but still see an unpaid balance. Thank you for your help.",
+    "label": "billing",
+    "language": "en",
+    "channel": "web"
+  },
+  {
+    "text": "Good morning. Why was my credit card charged after cancellation. Thank you for your help.",
+    "label": "billing",
+    "language": "en",
+    "channel": "email"
+  },
+  {
+    "text": "Good morning. The app crashes every time I upload a file. Thank you for your help.",
+    "label": "technical",
+    "language": "en",
+    "channel": "web"
+  },
+  {
+    "text": "Good morning. The API returns server error 500 during export. Thank you for your help.",
+    "label": "technical",
+    "language": "en",
+    "channel": "email"
+  },
+  {
+    "text": "Good morning. My dashboard is blank and the page does not load. Thank you for your help.",
+    "label": "technical",
+    "language": "en",
+    "channel": "web"
+  },
+  {
+    "text": "Good morning. The integration webhook is failing with a timeout. Thank you for your help.",
+    "label": "technical",
+    "language": "en",
+    "channel": "email"
+  },
+  {
+    "text": "Good morning. The search feature returns no results after the update. Thank you for your help.",
+    "label": "technical",
+    "language": "en",
+    "channel": "web"
+  },
+  {
+    "text": "Good morning. File downloads are broken in the latest app version. Thank you for your help.",
+    "label": "technical",
+    "language": "en",
+    "channel": "email"
+  },
+  {
+    "text": "Good morning. The database sync is stuck and the service is slow. Thank you for your help.",
+    "label": "technical",
+    "language": "en",
+    "channel": "web"
+  },
+  {
+    "text": "Good morning. The application freezes when opening the report. Thank you for your help.",
+    "label": "technical",
+    "language": "en",
+    "channel": "email"
+  },
+  {
+    "text": "Good morning. I get a network connection error in the desktop app. Thank you for your help.",
+    "label": "technical",
+    "language": "en",
+    "channel": "web"
+  },
+  {
+    "text": "Good morning. The API endpoint is timing out on every request. Thank you for your help.",
+    "label": "technical",
+    "language": "en",
+    "channel": "email"
+  },
+  {
+    "text": "Good morning. Exported files are corrupted after processing. Thank you for your help.",
+    "label": "technical",
+    "language": "en",
+    "channel": "web"
+  },
+  {
+    "text": "Good morning. The mobile app shows a blank screen and crashes. Thank you for your help.",
+    "label": "technical",
+    "language": "en",
+    "channel": "email"
+  }
+]

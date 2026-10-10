@@ -1,0 +1,578 @@
+[
+  {
+    "text": "Hello, I cannot login to my account after resetting my password.",
+    "label": "account"
+  },
+  {
+    "text": "Urgent: I cannot login to my account after resetting my password.",
+    "label": "account"
+  },
+  {
+    "text": "Please help: I cannot login to my account after resetting my password.",
+    "label": "account"
+  },
+  {
+    "text": "Hi support, I cannot login to my account after resetting my password.",
+    "label": "account"
+  },
+  {
+    "text": "Hello, Please reset my password and unlock my account.",
+    "label": "account"
+  },
+  {
+    "text": "Urgent: Please reset my password and unlock my account.",
+    "label": "account"
+  },
+  {
+    "text": "Please help: Please reset my password and unlock my account.",
+    "label": "account"
+  },
+  {
+    "text": "Hi support, Please reset my password and unlock my account.",
+    "label": "account"
+  },
+  {
+    "text": "Hello, The verification code for login never arrives.",
+    "label": "account"
+  },
+  {
+    "text": "Urgent: The verification code for login never arrives.",
+    "label": "account"
+  },
+  {
+    "text": "Please help: The verification code for login never arrives.",
+    "label": "account"
+  },
+  {
+    "text": "Hi support, The verification code for login never arrives.",
+    "label": "account"
+  },
+  {
+    "text": "Hello, I need to update the email address on my profile.",
+    "label": "account"
+  },
+  {
+    "text": "Urgent: I need to update the email address on my profile.",
+    "label": "account"
+  },
+  {
+    "text": "Please help: I need to update the email address on my profile.",
+    "label": "account"
+  },
+  {
+    "text": "Hi support, I need to update the email address on my profile.",
+    "label": "account"
+  },
+  {
+    "text": "Hello, How can I delete my account and personal profile.",
+    "label": "account"
+  },
+  {
+    "text": "Urgent: How can I delete my account and personal profile.",
+    "label": "account"
+  },
+  {
+    "text": "Please help: How can I delete my account and personal profile.",
+    "label": "account"
+  },
+  {
+    "text": "Hi support, How can I delete my account and personal profile.",
+    "label": "account"
+  },
+  {
+    "text": "Hello, My two factor authentication code is invalid.",
+    "label": "account"
+  },
+  {
+    "text": "Urgent: My two factor authentication code is invalid.",
+    "label": "account"
+  },
+  {
+    "text": "Please help: My two factor authentication code is invalid.",
+    "label": "account"
+  },
+  {
+    "text": "Hi support, My two factor authentication code is invalid.",
+    "label": "account"
+  },
+  {
+    "text": "Hello, I forgot my username and cannot sign in.",
+    "label": "account"
+  },
+  {
+    "text": "Urgent: I forgot my username and cannot sign in.",
+    "label": "account"
+  },
+  {
+    "text": "Please help: I forgot my username and cannot sign in.",
+    "label": "account"
+  },
+  {
+    "text": "Hi support, I forgot my username and cannot sign in.",
+    "label": "account"
+  },
+  {
+    "text": "Hello, My account is locked after too many login attempts.",
+    "label": "account"
+  },
+  {
+    "text": "Urgent: My account is locked after too many login attempts.",
+    "label": "account"
+  },
+  {
+    "text": "Please help: My account is locked after too many login attempts.",
+    "label": "account"
+  },
+  {
+    "text": "Hi support, My account is locked after too many login attempts.",
+    "label": "account"
+  },
+  {
+    "text": "Hello, Please change my profile name and account email.",
+    "label": "account"
+  },
+  {
+    "text": "Urgent: Please change my profile name and account email.",
+    "label": "account"
+  },
+  {
+    "text": "Please help: Please change my profile name and account email.",
+    "label": "account"
+  },
+  {
+    "text": "Hi support, Please change my profile name and account email.",
+    "label": "account"
+  },
+  {
+    "text": "Hello, I lost access to my authentication device.",
+    "label": "account"
+  },
+  {
+    "text": "Urgent: I lost access to my authentication device.",
+    "label": "account"
+  },
+  {
+    "text": "Please help: I lost access to my authentication device.",
+    "label": "account"
+  },
+  {
+    "text": "Hi support, I lost access to my authentication device.",
+    "label": "account"
+  },
+  {
+    "text": "Hello, Cannot access my account with my new password.",
+    "label": "account"
+  },
+  {
+    "text": "Urgent: Cannot access my account with my new password.",
+    "label": "account"
+  },
+  {
+    "text": "Please help: Cannot access my account with my new password.",
+    "label": "account"
+  },
+  {
+    "text": "Hi support, Cannot access my account with my new password.",
+    "label": "account"
+  },
+  {
+    "text": "Hello, My account verification link has expired.",
+    "label": "account"
+  },
+  {
+    "text": "Urgent: My account verification link has expired.",
+    "label": "account"
+  },
+  {
+    "text": "Please help: My account verification link has expired.",
+    "label": "account"
+  },
+  {
+    "text": "Hi support, My account verification link has expired.",
+    "label": "account"
+  },
+  {
+    "text": "Hello, I was charged twice for my monthly subscription.",
+    "label": "billing"
+  },
+  {
+    "text": "Urgent: I was charged twice for my monthly subscription.",
+    "label": "billing"
+  },
+  {
+    "text": "Please help: I was charged twice for my monthly subscription.",
+    "label": "billing"
+  },
+  {
+    "text": "Hi support, I was charged twice for my monthly subscription.",
+    "label": "billing"
+  },
+  {
+    "text": "Hello, Please refund the duplicate payment on my invoice.",
+    "label": "billing"
+  },
+  {
+    "text": "Urgent: Please refund the duplicate payment on my invoice.",
+    "label": "billing"
+  },
+  {
+    "text": "Please help: Please refund the duplicate payment on my invoice.",
+    "label": "billing"
+  },
+  {
+    "text": "Hi support, Please refund the duplicate payment on my invoice.",
+    "label": "billing"
+  },
+  {
+    "text": "Hello, The credit card payment was declined at checkout.",
+    "label": "billing"
+  },
+  {
+    "text": "Urgent: The credit card payment was declined at checkout.",
+    "label": "billing"
+  },
+  {
+    "text": "Please help: The credit card payment was declined at checkout.",
+    "label": "billing"
+  },
+  {
+    "text": "Hi support, The credit card payment was declined at checkout.",
+    "label": "billing"
+  },
+  {
+    "text": "Hello, How do I cancel my paid subscription renewal.",
+    "label": "billing"
+  },
+  {
+    "text": "Urgent: How do I cancel my paid subscription renewal.",
+    "label": "billing"
+  },
+  {
+    "text": "Please help: How do I cancel my paid subscription renewal.",
+    "label": "billing"
+  },
+  {
+    "text": "Hi support, How do I cancel my paid subscription renewal.",
+    "label": "billing"
+  },
+  {
+    "text": "Hello, My invoice total is wrong and includes an extra charge.",
+    "label": "billing"
+  },
+  {
+    "text": "Urgent: My invoice total is wrong and includes an extra charge.",
+    "label": "billing"
+  },
+  {
+    "text": "Please help: My invoice total is wrong and includes an extra charge.",
+    "label": "billing"
+  },
+  {
+    "text": "Hi support, My invoice total is wrong and includes an extra charge.",
+    "label": "billing"
+  },
+  {
+    "text": "Hello, I need a receipt for my recent payment.",
+    "label": "billing"
+  },
+  {
+    "text": "Urgent: I need a receipt for my recent payment.",
+    "label": "billing"
+  },
+  {
+    "text": "Please help: I need a receipt for my recent payment.",
+    "label": "billing"
+  },
+  {
+    "text": "Hi support, I need a receipt for my recent payment.",
+    "label": "billing"
+  },
+  {
+    "text": "Hello, Please update the billing address on the invoice.",
+    "label": "billing"
+  },
+  {
+    "text": "Urgent: Please update the billing address on the invoice.",
+    "label": "billing"
+  },
+  {
+    "text": "Please help: Please update the billing address on the invoice.",
+    "label": "billing"
+  },
+  {
+    "text": "Hi support, Please update the billing address on the invoice.",
+    "label": "billing"
+  },
+  {
+    "text": "Hello, My refund has not appeared on my credit card.",
+    "label": "billing"
+  },
+  {
+    "text": "Urgent: My refund has not appeared on my credit card.",
+    "label": "billing"
+  },
+  {
+    "text": "Please help: My refund has not appeared on my credit card.",
+    "label": "billing"
+  },
+  {
+    "text": "Hi support, My refund has not appeared on my credit card.",
+    "label": "billing"
+  },
+  {
+    "text": "Hello, The subscription price increased without notice.",
+    "label": "billing"
+  },
+  {
+    "text": "Urgent: The subscription price increased without notice.",
+    "label": "billing"
+  },
+  {
+    "text": "Please help: The subscription price increased without notice.",
+    "label": "billing"
+  },
+  {
+    "text": "Hi support, The subscription price increased without notice.",
+    "label": "billing"
+  },
+  {
+    "text": "Hello, Can I change my payment method for billing.",
+    "label": "billing"
+  },
+  {
+    "text": "Urgent: Can I change my payment method for billing.",
+    "label": "billing"
+  },
+  {
+    "text": "Please help: Can I change my payment method for billing.",
+    "label": "billing"
+  },
+  {
+    "text": "Hi support, Can I change my payment method for billing.",
+    "label": "billing"
+  },
+  {
+    "text": "Hello, I paid the invoice but still see an unpaid balance.",
+    "label": "billing"
+  },
+  {
+    "text": "Urgent: I paid the invoice but still see an unpaid balance.",
+    "label": "billing"
+  },
+  {
+    "text": "Please help: I paid the invoice but still see an unpaid balance.",
+    "label": "billing"
+  },
+  {
+    "text": "Hi support, I paid the invoice but still see an unpaid balance.",
+    "label": "billing"
+  },
+  {
+    "text": "Hello, Why was my credit card charged after cancellation.",
+    "label": "billing"
+  },
+  {
+    "text": "Urgent: Why was my credit card charged after cancellation.",
+    "label": "billing"
+  },
+  {
+    "text": "Please help: Why was my credit card charged after cancellation.",
+    "label": "billing"
+  },
+  {
+    "text": "Hi support, Why was my credit card charged after cancellation.",
+    "label": "billing"
+  },
+  {
+    "text": "Hello, The app crashes every time I upload a file.",
+    "label": "technical"
+  },
+  {
+    "text": "Urgent: The app crashes every time I upload a file.",
+    "label": "technical"
+  },
+  {
+    "text": "Please help: The app crashes every time I upload a file.",
+    "label": "technical"
+  },
+  {
+    "text": "Hi support, The app crashes every time I upload a file.",
+    "label": "technical"
+  },
+  {
+    "text": "Hello, The API returns server error 500 during export.",
+    "label": "technical"
+  },
+  {
+    "text": "Urgent: The API returns server error 500 during export.",
+    "label": "technical"
+  },
+  {
+    "text": "Please help: The API returns server error 500 during export.",
+    "label": "technical"
+  },
+  {
+    "text": "Hi support, The API returns server error 500 during export.",
+    "label": "technical"
+  },
+  {
+    "text": "Hello, My dashboard is blank and the page does not load.",
+    "label": "technical"
+  },
+  {
+    "text": "Urgent: My dashboard is blank and the page does not load.",
+    "label": "technical"
+  },
+  {
+    "text": "Please help: My dashboard is blank and the page does not load.",
+    "label": "technical"
+  },
+  {
+    "text": "Hi support, My dashboard is blank and the page does not load.",
+    "label": "technical"
+  },
+  {
+    "text": "Hello, The integration webhook is failing with a timeout.",
+    "label": "technical"
+  },
+  {
+    "text": "Urgent: The integration webhook is failing with a timeout.",
+    "label": "technical"
+  },
+  {
+    "text": "Please help: The integration webhook is failing with a timeout.",
+    "label": "technical"
+  },
+  {
+    "text": "Hi support, The integration webhook is failing with a timeout.",
+    "label": "technical"
+  },
+  {
+    "text": "Hello, The search feature returns no results after the update.",
+    "label": "technical"
+  },
+  {
+    "text": "Urgent: The search feature returns no results after the update.",
+    "label": "technical"
+  },
+  {
+    "text": "Please help: The search feature returns no results after the update.",
+    "label": "technical"
+  },
+  {
+    "text": "Hi support, The search feature returns no results after the update.",
+    "label": "technical"
+  },
+  {
+    "text": "Hello, File downloads are broken in the latest app version.",
+    "label": "technical"
+  },
+  {
+    "text": "Urgent: File downloads are broken in the latest app version.",
+    "label": "technical"
+  },
+  {
+    "text": "Please help: File downloads are broken in the latest app version.",
+    "label": "technical"
+  },
+  {
+    "text": "Hi support, File downloads are broken in the latest app version.",
+    "label": "technical"
+  },
+  {
+    "text": "Hello, The database sync is stuck and the service is slow.",
+    "label": "technical"
+  },
+  {
+    "text": "Urgent: The database sync is stuck and the service is slow.",
+    "label": "technical"
+  },
+  {
+    "text": "Please help: The database sync is stuck and the service is slow.",
+    "label": "technical"
+  },
+  {
+    "text": "Hi support, The database sync is stuck and the service is slow.",
+    "label": "technical"
+  },
+  {
+    "text": "Hello, The application freezes when opening the report.",
+    "label": "technical"
+  },
+  {
+    "text": "Urgent: The application freezes when opening the report.",
+    "label": "technical"
+  },
+  {
+    "text": "Please help: The application freezes when opening the report.",
+    "label": "technical"
+  },
+  {
+    "text": "Hi support, The application freezes when opening the report.",
+    "label": "technical"
+  },
+  {
+    "text": "Hello, I get a network connection error in the desktop app.",
+    "label": "technical"
+  },
+  {
+    "text": "Urgent: I get a network connection error in the desktop app.",
+    "label": "technical"
+  },
+  {
+    "text": "Please help: I get a network connection error in the desktop app.",
+    "label": "technical"
+  },
+  {
+    "text": "Hi support, I get a network connection error in the desktop app.",
+    "label": "technical"
+  },
+  {
+    "text": "Hello, The API endpoint is timing out on every request.",
+    "label": "technical"
+  },
+  {
+    "text": "Urgent: The API endpoint is timing out on every request.",
+    "label": "technical"
+  },
+  {
+    "text": "Please help: The API endpoint is timing out on every request.",
+    "label": "technical"
+  },
+  {
+    "text": "Hi support, The API endpoint is timing out on every request.",
+    "label": "technical"
+  },
+  {
+    "text": "Hello, Exported files are corrupted after processing.",
+    "label": "technical"
+  },
+  {
+    "text": "Urgent: Exported files are corrupted after processing.",
+    "label": "technical"
+  },
+  {
+    "text": "Please help: Exported files are corrupted after processing.",
+    "label": "technical"
+  },
+  {
+    "text": "Hi support, Exported files are corrupted after processing.",
+    "label": "technical"
+  },
+  {
+    "text": "Hello, The mobile app shows a blank screen and crashes.",
+    "label": "technical"
+  },
+  {
+    "text": "Urgent: The mobile app shows a blank screen and crashes.",
+    "label": "technical"
+  },
+  {
+    "text": "Please help: The mobile app shows a blank screen and crashes.",
+    "label": "technical"
+  },
+  {
+    "text": "Hi support, The mobile app shows a blank screen and crashes.",
+    "label": "technical"
+  }
+]

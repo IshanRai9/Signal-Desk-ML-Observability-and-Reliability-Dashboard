@@ -1,0 +1,15 @@
+{
+  "experiment_id": "support-routing-v1",
+  "dataset_version": "tickets-v1",
+  "seed": 20261010,
+  "classes": ["account", "billing", "technical"],
+  "model": "TF-IDF (word 1-2 grams) + LogisticRegression",
+  "logistic_C": 8.0,
+  "prompt_version": "not-applicable",
+  "reference_version": "reference-v1",
+  "seed_hours": 72,
+  "events_per_hour": 100,
+  "degradation_hours": [24, 32],
+  "drift_hours": [40, 48],
+  "latency_hours": [56, 60]
+}

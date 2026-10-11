@@ -25,7 +25,11 @@ jobs:
       - name: Browser smoke test
         run: |
           uv run uvicorn signaldesk.api:app --port 8000 &
+          api_pid=$!
           uv run streamlit run dashboard/app.py --server.port 8501 &
+          dashboard_pid=$!
+          # Release uv's cache locks before setup-uv's post-job cache pruning.
+          trap 'kill "$api_pid" "$dashboard_pid" 2>/dev/null || true; wait "$api_pid" "$dashboard_pid" 2>/dev/null || true' EXIT
           uv run python scripts/browser_smoke.py
       - uses: actions/upload-artifact@v4
         if: always()
